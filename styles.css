@@ -1,0 +1,88 @@
+body {
+    padding-top: 70px; 
+    background-color: #121212; 
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .navbar-brand, .nav-link {
+    font-weight: 600; 
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 20px; 
+  }
+  
+  .navbar {
+    background-color: #1a1a1a; 
+  }
+  
+  .navbar-toggler {
+    border-color: #ffffff; 
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  #quiz {
+    padding: 50px 0; 
+  }
+  
+  #quiz .container {
+    background-color: #ffffff; 
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  #quiz h2 {
+    color: #000000; 
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #5f00b3; 
+    border-color: #ffea00; 
+  }
+  
+  .btn-primary:hover {
+    background-color: #00ff51; 
+    border-color: #ffffff;
+  }
+  
+  .btn-success {
+    background-color: #28a745; 
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; 
+    border-color: #218838;
+  }
+  
+  .modal-content {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+  }
+  
+  .modal-header {
+    border-bottom: none; 
+  }
+  
+  .modal-title {
+    color: #ffffff; 
+  }
+  
+  .modal-footer {
+    border-top: none; 
+  }
+  
+  

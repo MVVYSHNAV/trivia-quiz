@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Trivia Quiz</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html">School Trivia Quiz</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="quiz.html">Quiz</a></li>
+      <li class="nav-item"><a class="nav-link" href="index.html#feedback">Feedback</a></li>
+      <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Quiz Section -->
+<section id="quiz" class="mt-5 pt-5">
+  <div class="container">
+    <h2>Quiz</h2>
+    <div id="quiz-container">
+      <!-- Quiz questions will be loaded here dynamically -->
+    </div>
+    <button id="next-button" class="btn btn-primary mt-3" onclick="nextQuestion()">Next</button>
+    <button id="submit-button" class="btn btn-success mt-3" onclick="submitQuiz()" style="display: none;">Submit</button>
+  </div>
+</section>
+
+<!-- Result Modal -->
+<div class="modal fade" id="resultModal" tabindex="-1" aria-labelledby="resultModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="resultModalLabel">Your Results</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Results will be displayed here -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="quiz.js"></script>
+</body>
+</html>
